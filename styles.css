@@ -1,0 +1,180 @@
+/* Responsive desktop media query */
+
+@media (min-width: 786px) {
+
+    h1 {
+        font-size: 3rem !important;
+        font-weight: 700;
+    }
+
+    .heading {
+        text-align: left !important;
+        margin: 150px 60px 40px 140px !important;
+
+    }
+
+    .introduction {
+        text-align: left !important;
+        margin: 40px 40px 40px 140px !important;
+        font-size: .9rem;
+    }
+
+    .container2 {
+        padding-top: 80px;
+    }
+
+    .btn1 {
+        width: 66% !important;
+        height: 40px !important;
+        margin-top: 10px;
+        margin-bottom: 0 !important;
+    }
+
+    .form {
+        width: 66% !important;
+        margin: 5px 12% !important;
+
+    }
+
+    .attribution {
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("images/bg-intro-mobile.png");
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+}
+
+/* Heading and Introduction */
+
+.heading {
+    text-align: center;
+    margin: 70px 60px 40px 60px;
+    color: #fff;
+}
+
+.introduction {
+    text-align: center;
+    margin: 10px 40px 40px;
+    color: #fff;
+}
+
+/* Free Trail Button Section */
+
+.btn1 {
+    border-style: none;
+    position: relative;
+    font-size: .9rem;
+    background: hsl(248, 32%, 49%);
+    border-radius: 7px;
+    box-shadow: 0 2px #646363;
+    width: 90%;
+    height: 70px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.btn-holder {
+    text-align: center;
+}
+
+/* Form Section */
+
+.form {
+    position: relative;
+    border-radius: 8px;
+    width: 90%;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.form-container {
+    width: 100%;
+    margin: 20px 5%;
+}
+
+.input {
+    width: 90%;
+    margin: 8px 5%;
+    border-radius: 3px;
+    border: 1px solid hsl(240, 5%, 74%);
+    height: 40px;
+}
+
+.input::placeholder {
+    font-size: .6rem;
+    padding-left: 4%;
+    color: grey;
+}
+
+.error-text {
+    color: hsl(0, 100%, 74%);
+    visibility: hidden;
+    font-size: .6rem;
+    position: absolute;
+}
+
+
+.fname-error {
+    top: 58px;
+    right: 8%;
+}
+
+.lname-error {
+    top: 114px;
+    right: 8%;
+}
+
+.email-error {
+    top: 172px;
+    right: 8%;
+}
+
+.password-error {
+    top: 227px;
+    right: 8%;
+}
+
+.btn2 {
+    border-style: none;
+    position: relative;
+    font-size: .9rem;
+    background: hsl(154, 59%, 51%);
+    border-radius: 7px;
+    width: 90%;
+    height: 45px;
+    color: #ffffff;
+    margin: 8px 5%;
+}
+
+.terms {
+    font-size: .7rem;
+    text-align: center;
+    line-height: 1.5;
+    margin: 10px;
+    padding-bottom: 14px;
+}
+
+.terms-red {
+    color: red;
+}
+
+/* Footer */
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
